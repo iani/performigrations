@@ -1,0 +1,17 @@
+created: 20141104230450289
+modified: 20141106175304800
+title: Map
+type: text/vnd.tiddlywiki
+
+Planning to explore existing projects, and as far as possible combine / extend their techniques and tools for geo-locative sound, for use in Performigrations.  Some projects targeted are:
+
+* [[AudioMobile|http://audio-mobile.org/about#3/25.54/-73.58]]
+* [[Stories Matter|http://storytelling.concordia.ca/storiesmatter/]]
+* work by [[Locus Sonus|http://locusonus.org/]]. 
+
+Possible platform for developing a globe-browsing map can be cesium (http://cesiumjs.org/),  based on ~WebGl/d3js.  Related links: 
+
+* http://d3js.org/
+* Example of globe-map with interactive info-graphics: http://cgi-interactive.clintonfoundation.org/topics?year=ALL
+* Temperature anomalies in world climate over the years: http://philogb.github.io/page/temperature-anomalies/
+* Other ~WebGL examples: http://www.chromeexperiments.com/webgl

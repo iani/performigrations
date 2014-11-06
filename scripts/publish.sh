@@ -8,4 +8,4 @@ git checkout gh-pages
 git merge master
 git push origin gh-pages
 git checkout master
-rsync -avz index.html iani@larigot.avarts.ionio.gr:/Library/WebServer/Documents/users/iani/wikis/sandbox.html
+rsync -avz index.html iani@larigot.avarts.ionio.gr:/Library/WebServer/Documents/users/iani/wikis/performigrations.html
