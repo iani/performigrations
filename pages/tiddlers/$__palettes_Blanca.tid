@@ -1,6 +1,6 @@
 created: 20141106174728414
 description: A clean white palette to let you focus
-modified: 20141106175144666
+modified: 20141106205717107
 name: Blanca
 tags: $:/tags/Palette
 title: $:/palettes/Blanca
@@ -93,7 +93,7 @@ tiddler-info-tab-background: #f8f8f8
 tiddler-link-background: <<colour background>>
 tiddler-link-foreground: <<colour primary>>
 tiddler-subtitle-foreground: #c0c0c0
-tiddler-title-foreground: #ff9900
+tiddler-title-foreground: #0096ff
 toolbar-new-button: 
 toolbar-options-button: 
 toolbar-save-button: 
