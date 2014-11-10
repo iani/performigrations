@@ -16788,9 +16788,42 @@ Possible platform for developing a globe-browsing map can be cesium (http://cesi
 * Other ~WebGL examples: http://www.chromeexperiments.com/webgl
 </pre>
 </div>
-<div created="20141110162302460" modified="20141110162619457" tags="[[Tech Notes]] tech" title="Sharing Data Online" type="text/vnd.tiddlywiki">
-<pre>* http://www.getsync.com/how-it-works
-* https://owncloud.com/community-enterprise/
+<div created="20141110162302460" modified="20141110182658238" tags="[[Tech Notes]] tech" title="Sharing Data Online" type="text/vnd.tiddlywiki">
+<pre>!! Objective
+
+Provide members of Performigrations access to a server where they can easily upload and download media and documents.
+
+!! Requirements
+
+* Capacity: 100 GB at least (over 1TB if possible).
+* Backups: Both locally on external discs (or using RAID), and on different location by mirroring. 
+* Modes of access: Upload and download as simply as possible. If possible web interface.
+
+!! Tool discussion, roadmap preliminary draft
+
+!!! Tools
+''Bittorrent'' has an application, in beta, which can be used to share and sync any number of folders between any number of users: http://www.getsync.com/how-it-works
+
+''OwnCloud'' has a free open source server app that offers the same  like DropBox. 
+* App structure and costs (free for community): https://owncloud.com/community-enterprise/ 
+* Features https://owncloud.org/features/
+
+!!! Questions, comments, thoughts
+
+# Can OwnCloud server be installed on server at Concordia MML?
+
+Alternative: Use OwnCloud already installed at ```larigot.avarts.ionio.gr``` and push the contents of folders from larigot to server at Concordia via rsync using some crontab-like demon (LaunchControl).  But also Contents of a media folder can be made visible and downloadable on the web anyway using the default directory-browsing mode of any HTML browser; example: http://larigot.avarts.ionio.gr/EASTN_Tsepelovo_documentation/
+
+!! Other questions
+
+Basic info needed for server at Concordia MML
+# Name? (How about: 'Cirlus'? See http://en.wikipedia.org/wiki/Cirl_bunting)
+# URL?
+# Technical specs (OS, RAM, HD Space, Backup/Security scheme)?
+
+
+
+
 </pre>
 </div>
 <div created="20141110161940391" modified="20141110162527821" tags="contents" title="Tech Notes" type="text/vnd.tiddlywiki">
