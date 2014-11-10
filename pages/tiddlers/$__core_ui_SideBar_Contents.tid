@@ -1,9 +1,11 @@
+caption: Contents
 created: 20141005091020736
 creator: iani
-modified: 20141104223725383
+list-after: $:/core/ui/SideBar/Recent
+modified: 20141110125723793
 modifier: iani
 tags: $:/tags/SideBar
-title: Contents
+title: $:/core/ui/SideBar/Contents
 type: text/vnd.tiddlywiki
 
 <div class="tc-table-of-contents">
