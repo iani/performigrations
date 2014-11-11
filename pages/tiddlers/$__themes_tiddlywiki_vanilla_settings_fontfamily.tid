@@ -1,6 +1,6 @@
 created: 20141106175414229
-modified: 20141110123351361
+modified: 20141111094521426
 title: $:/themes/tiddlywiki/vanilla/settings/fontfamily
 type: text/vnd.tiddlywiki
 
-"Cardo" "Open Sans" "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+"Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif

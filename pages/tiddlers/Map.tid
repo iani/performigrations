@@ -1,5 +1,5 @@
 created: 20141104230450289
-modified: 20141106211845454
+modified: 20141111194944502
 tags: contents
 title: Map
 type: text/vnd.tiddlywiki
@@ -16,3 +16,4 @@ Possible platform for developing a globe-browsing map can be cesium (http://cesi
 * Example of globe-map with interactive info-graphics: http://cgi-interactive.clintonfoundation.org/topics?year=ALL
 * Temperature anomalies in world climate over the years: http://philogb.github.io/page/temperature-anomalies/
 * Other ~WebGL examples: http://www.chromeexperiments.com/webgl
+* Also: United Nations Development Programme: http://open.undp.org/#2014
