@@ -1,10 +1,10 @@
 created: 20141106180008824
-modified: 20141111095427556
+modified: 20141113132048629
 tags: $:/tags/Stylesheet
 title: $:/MyStyleSheet
 type: text/vnd.tiddlywiki
 
 html span.tc-title{
-  color: red;
+  color: #F84;
   font-family: "Montserrat", "Poiret One", "Impact";
 }
