@@ -1,5 +1,5 @@
 created: 20141104230450289
-modified: 20141111194944502
+modified: 20141114120711700
 tags: contents
 title: Map
 type: text/vnd.tiddlywiki
@@ -17,3 +17,8 @@ Possible platform for developing a globe-browsing map can be cesium (http://cesi
 * Temperature anomalies in world climate over the years: http://philogb.github.io/page/temperature-anomalies/
 * Other ~WebGL examples: http://www.chromeexperiments.com/webgl
 * Also: United Nations Development Programme: http://open.undp.org/#2014
+
+Notes about further concepts/ideas for the Map part: 
+
+<<tabs "[tag[Map]]" "" "" "tc-vertical">>
+
