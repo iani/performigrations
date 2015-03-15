@@ -1,7 +1,7 @@
 tiddlywiki ../readonly --rendertiddler $:/core/save/all ../../index.html text/plain
 git checkout master
 cd ../
-git add .
+git add --all .
 git commit -am "Saved on: `date`"
 git push origin master
 git checkout gh-pages
