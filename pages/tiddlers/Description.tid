@@ -1,0 +1,43 @@
+created: 20150325193647266
+modified: 20150325205134609
+title: Description
+type: text/x-markdown
+
+
+# Main idea
+
+The piece will be a combination of mashup, fragmented documentary on immigration, and interactive poem.  It combines literary texts, transcribed interviews, sounds and pictures from recent projects on immigration.  Texts entered by the visitors via a chatroom type interface running on any browser become part of the piece, and are presented either as floating, fleeting text fragments on a screen, or as parts of a website that includes many texts and fragments in one single narrative with many pages arranged in a nested fold-out menu.
+
+# Material used
+
+1.  Audio Recordings and transcripts of interviews in Russian, Georgian and Pontic Greek made by Alexandros Sidiropoulos during a trip to southern Georgia in January of 2015.
+2.  Photos of the interviewed persons in (1).
+3.  The text of Raymond Roussel's poem "Nouvelles Impressions d'Afrique", in french and english.
+4.  Audio, video and text excerpts from 5 documentaries on immigrants in Greece, made by a research project of the University of Athens
+5.  Text entered by the visitors of the installation
+6.  Other sources - excerpted
+
+# Technical part
+
+Loukas' part:
+
+Loukas is running several software components on a Raspberry Pi 2, using Node.js for communication between the components via OSC, and as a web server.  These are:
+
+1.  An adaptation of the PirateBox home page, with experiments for sending data via OSC to other applications from it.  At this stage, it is not possible to send data via OSC from the native PirateBox app, because to use OSC we need Node.js, and Node.js runs on its own port, and we have not figured out how to send to a different port than the PB server is on.  This may be solved, or circumvented, as in step 2, or in next todo 1 below:
+2.  A simplified re-do of the PirateBox chat room, which sends its data to SuperCollider.
+3.  Tests running TiddlyWiki on the same Raspberry pi.
+4.  SuperCollider, receiving data from the chat room.
+
+Next todos:
+
+1.  Port the PirateBox home page to a page running under Node.js.  Also make the interface to the python script that saves all entered text in an html file work in the Node.js environment.
+
+Vicky's part:
+
+Using openFrameworks, display several different string-texts dynamically on the screen, drawing each string with custom position, font-size, and color parameters.  The strings plus parameters are sent to oF from SuperCollider via OSC.
+
+Iannis' part:
+
+1.  Advise and participate in coding the above
+2.  Code the SuperCollider part for Tiddlywiki,
+3.  Code the logic governing the combination of texts and other sources and the manner they get displayed.
