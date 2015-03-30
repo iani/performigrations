@@ -1,0 +1,9 @@
+created: 20150330105354504
+modified: 20150330105452169
+tags: tech [[Tech Notes]]
+title: Supporting Multiple screens
+type: text/vnd.tiddlywiki
+
+http://developer.android.com/guide/practices/screens_support.html
+
+Viewport meta tag: https://developer.mozilla.org/en/docs/Mozilla/Mobile/Viewport_meta_tag
