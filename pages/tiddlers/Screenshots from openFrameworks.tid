@@ -1,0 +1,9 @@
+created: 20150404174251446
+modified: 20150404180519660
+tags: Pictures
+title: Screenshots from openFrameworks
+type: text/vnd.tiddlywiki
+
+Here are some initial screenshots from openFrameworks, showing how text can be projected in 2D or 3D on the screen.
+
+<<tabs "[tag[Screenshots-oF]]" "of-text 9">>
