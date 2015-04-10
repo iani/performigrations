@@ -1,8 +1,22 @@
 created: 20150410195226785
-modified: 20150410195614111
+modified: 20150410213737628
 tags: tech [[Tech Notes]]
 title: Equipment List (Montreal 12.4.2015)
 type: text/vnd.tiddlywiki
 
-|!Item |!No. Items |!Status|!Cost|!Shop|
-|Raspberry Pi 2 B| 2 | ok | | |
+
+|   | !No. | !Item                  | !No. Items | !Status | !Cost | !Shop |
+| # |    1 | Raspberry Pi 2 B       |          2 | ok      |       |       |
+| # |    2 | Cases for (1)          |          2 | ok      |       |       |
+| # |    3 | Power Supply for (1)   |          2 | ok      |       |       |
+| # |    4 | Wifi Adapter for (1)   |          2 | ok      |       |       |
+| # |    5 | Keyboard for 1         |          1 | ok      |       |       |
+| # |    6 | HDMI cables            |          2 | check!  |       |       |
+| # |    7 | Batteries for 1        |          ? | buy     |       |       |
+| # |    8 | Touch Screen           |          1 | buy     |       |       |
+| # |    9 | Batteries for 8        |            | buy     |       |       |
+| # |   10 | Pico Projector         |          1 | buy     |       |       |
+| # |   11 | Batteries for 10       |            | buy     |       |       |
+| # |   12 | Portable mini speakers |          1 | buy     |       |       |
+| # |   13 | Batteries for 12       |            | buy     |       |       |
+|   |  SUM |                        |            |         | 0     |       |
