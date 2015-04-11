@@ -1,7 +1,9 @@
 created: 20150410223652691
-modified: 20150410223731944
+modified: 20150411141620859
 tags: tech [[Tech Notes]]
 title: Links on same tab
 type: text/vnd.tiddlywiki
 
 Example: <html><a href="http://www.mideastweb.org/culture/ney.htm">ney</a></html>
+
+Reference: http://tiddlywiki.tiddlyspace.com/TiddlyWiki%20Markup
