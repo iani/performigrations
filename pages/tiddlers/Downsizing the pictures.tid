@@ -1,0 +1,11 @@
+created: 20150413151056305
+modified: 20150413151155927
+tags: [[Tech Notes]]
+title: Downsizing the pictures
+type: text/vnd.tiddlywiki
+
+From: http://lifehacker.com/5962420/batch-resize-images-quickly-in-the-os-x-terminal
+
+```
+sips -Z 1080 *.jpg
+```
