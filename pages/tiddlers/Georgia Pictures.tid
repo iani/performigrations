@@ -1,6 +1,6 @@
 created: 20150412121659189
 creator: iani
-modified: 20150413150644298
+modified: 20150413224515059
 modifier: iani
 tags: Pictures
 title: Georgia Pictures
@@ -8,6 +8,4 @@ type: text/vnd.tiddlywiki
 
 List of Photos selected by Alexis Sidiropoulos from his trip to Georgia. 
 
-<div class="tc-table-of-contents">
-<<toc-selective-expandable 'Georgia Pictures'>>
-</div>
+<<tabs "[[Georgia Photos Overview]] [[Georgia Photos List]] "Georgia Photos Overview">>

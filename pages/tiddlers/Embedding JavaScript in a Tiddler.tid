@@ -1,0 +1,15 @@
+created: 20150413201949684
+modified: 20150413202638231
+title: Embedding JavaScript in a Tiddler
+type: text/vnd.tiddlywiki
+
+* https://groups.google.com/forum/#!topic/tiddlywiki/nJ_q32YqAO8
+
+<<<
+In order to embed a script within a tiddler, you can install 
+   http://www.TiddlyTools.com/#InlineJavascriptPlugin 
+
+Once installed, you won't need to use any HTML, just a script block:
+
+``<script src="..."></script>``
+<<<
