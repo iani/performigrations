@@ -1,9 +1,16 @@
 created: 20150413201949684
-modified: 20150415172453568
+modified: 20150416181513541
 tags: [[Tech Notes]]
 title: Embedding JavaScript in a Tiddler
 type: text/vnd.tiddlywiki
 
+! good for TW5 - works only in rendered wiki: 
+
+See: http://tw5magick.tiddlyspot.com/
+
+See tiddler named: "Javascript Macros in WikiText", and System tiddler named: "$:/macros/skeeve/mysamplemacro.js"
+
+! Older stuff
 * https://groups.google.com/forum/#!topic/tiddlywiki/nJ_q32YqAO8
 
 <<<
