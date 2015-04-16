@@ -1,0 +1,16 @@
+created: 20150416171331078
+modified: 20150416171614515
+tags: contents
+title: Design considerations
+type: text/vnd.tiddlywiki
+
+* [[Phrases -> Pictures]]
+* [[Pictures -> Phrases]]?
+* [[Pictures -> Sounds]]?
+* [[Sounds -> Phrases]]?
+* [[Phrases -> Sounds]]?
+
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Design Considerations">>
+</div>
