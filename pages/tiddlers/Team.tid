@@ -1,11 +1,11 @@
 created: 20150325195116111
-modified: 20150413183800336
+modified: 20150418165850520
 title: Team
 type: text/vnd.tiddlywiki
 
 * Iannis Zannos: Overall concept, material selection, technical coordination, coding support and SuperCollider coding part
-* [[Alexios Sidiropoulos]]: Photos and interview recordings from Georgia
-* Loukas Basoukos: Raspberry Pi software infrastructure
+* [[Alexios Sidiropoulos]]: Photos and interview recordings from Georgia, texts and content design. 
+* Loukas Basoukos: Raspberry Pi software infrastructure, Interface design
 * Vicky Bisbiki: openFrameworks string animation software
 * Pavlos Kavouras, Kleopatra Youssef, and Athens University team: Migration documentary material
 

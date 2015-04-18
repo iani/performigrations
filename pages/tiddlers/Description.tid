@@ -1,38 +1,6 @@
 created: 20150325193647266
-modified: 20150415164030723
+modified: 20150418184909125
 title: Description
 type: text/vnd.tiddlywiki
 
-! Main idea
-
-The piece is a combination of mashup, fragmented documentary on immigration, and interactive poem.  It combines literary texts, transcribed interviews, sounds and pictures from recent projects on immigration.  Texts entered by the visitors via a chatroom type interface running on any browser become part of the piece, and are presented as parts of a website that includes many texts and fragments in one single narrative with many pages arranged in a nested fold-out menu.
-
-! Materials used
-
-#  Audio Recordings and transcripts of interviews in Russian, Georgian and Pontic Greek made by [[Alexios Sidiropoulos]] during a [[trip to southern Georgia|Georgia to Greece]] in January of 2015.
-#  [[Photos|Georgia Pictures]] of the interviewed persons in (1).
-#  The text of Raymond Roussel's poem "[[Nouvelles Impressions d'Afrique|http://withhiddennoise.net/roussel]]".
-#  Audio, video and text excerpts from [[5 documentaries on immigrants in Greece|Greece Videos]], made by a research project of the University of Athens
-#  Text entered by the visitors of the installation
-#  Other sources - excerpted
-
-! Technical part
-
-Loukas' part:
-
-Loukas is running several software components on a Raspberry Pi 2, using Node.js for communication between the components via OSC, and as a web server.  These are:
-
-#  An adaptation of the PirateBox home page, with experiments for sending data via OSC to other applications from it.  At this stage, it is not possible to send data via OSC from the native PirateBox app, because to use OSC we need Node.js, and Node.js runs on its own port, and we have not figured out how to send to a different port than the PB server is on.  This may be solved, or circumvented, as in step 2, or in next todo 1 below:
-#  A simplified re-do of the PirateBox chat room, which sends its data to SuperCollider.
-#  Tests running TiddlyWiki on the same Raspberry pi.
-#  SuperCollider, receiving data from the chat room.
-
-Vicky's part:
-
-Using openFrameworks, display several different string-texts dynamically on the screen, drawing each string with custom position, font-size, and color parameters.  The strings plus parameters are sent to oF from SuperCollider via OSC.
-
-Iannis' part:
-
-#  Advise and participate in coding the above
-#  Code the SuperCollider part for Tiddlywiki,
-#  Code the logic governing the combination of texts and other sources and the manner they get displayed.
+<<tabs "[tag[Description]]" "Intro Text for the Installation">>
