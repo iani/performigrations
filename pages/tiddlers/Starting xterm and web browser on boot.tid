@@ -1,0 +1,90 @@
+created: 20150419111703677
+modified: 20150419121104552
+tags: tech [[Tech Notes]]
+title: Starting xterm and web browser on boot
+type: text/vnd.tiddlywiki
+
+See: http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/gui/auto-run-browser-on-startup
+
+Edit the autostart file:
+
+```
+sudo nano /etc/xdg/lxsession/LXDE/autostart
+```
+
+Comment out everything using a '#' at the start of each line and then add the following lines
+
+```
+# Auto run the browser
+@xset s off
+@xset -dpms
+@xset s noblank
+@midori -e Fullscreen -a http://google.com
+```
+
+If necessary use the configuration tool to enable auto running of the GUI on powerup
+
+```
+sudo raspi-config
+```
+------
+
+! Less relevant answers from previous searches
+
+
+The most relevant answer found was this: 
+http://stevenhickson.blogspot.ca/2012/08/setting-up-omxplayer-gui-on-raspberry-pi.html
+
+
+------
+Another slightly less relevant page is here: 
+
+http://raspberrypi.stackexchange.com/questions/5485/how-to-open-a-terminal-at-startup says this: 
+
+!!! answer 1
+If you're using wheezy you can log in automatically by editing /etc/inittab
+
+Search for the line:
+
+``1:23:respawn:/sbin/getty 38400 tty1``
+Add a hash tag in front of it
+
+``#1:23:respawn:/sbin/getty 38400 tty1``
+This will disable the line. Next you need to add a new entry:
+
+``1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1``
+
+Where pi is the username of the account you want to use for automatic log in.
+Note that this bypasses security, allowing access to your PI without the password of the user.
+
+!!! Answer 2
+
+Your question has been answered for if you're talking about just booeting into a tty instead of your DM, so I'll answer how you'd just start your terminal emulator on X startup.
+
+This is just as easy. Edit your /home/user/.xinitrc:
+
+``exec gnome-terminal &``
+
+and add the above line. Replace gnome-terminal with your term of choice. The ampersand is to make it execute and send to the background so it doesn't lock up X when it starts.
+
+!!! Own suggestion 
+
+Try booting a fresh install of the system (NOOBS?) with a screen attached.  This should 
+
+-----
+Different thread - not relevant - kept here temporarily: 
+
+
+Some answers from: https://www.raspberrypi.org/forums/viewtopic.php?f=27&t=45135 :
+
+by klricks » Sun May 26, 2013 11:30 pm
+You cannot run startx or any GUI applications through SSH. 
+You need to use RDP or other similar application.
+Here is a tutorial on how I set up RDP:
+http://64.13.91.137:86/Comp/RPi/RDP.html
+
+This isn't true. OpenSSH supports forwarding of the Xserver and will very much allow you to run your graphical applications.
+
+See the following : http://itg.chem.indiana.edu/inc/wiki/software/openssh/200.html
+
+
