@@ -1,8 +1,27 @@
 created: 20150419111703677
-modified: 20150419142005048
+modified: 20150420172538084
 tags: tech [[Tech Notes]]
 title: Starting xterm and web browser on boot
 type: text/vnd.tiddlywiki
+
+Newest answer on forum: https://www.raspberrypi.org/forums/viewtopic.php?p=714119#p714119
+
+You can start automatically your script adding a new line to the file ``/etc/xdg/lxsession/LXDE/autostart.`` 
+
+This new line should start with "@" + scriptname (including path to script if necessary):
+
+```
+sudo nano /etc/xdg/lxsession/LXDE/autostart
+```
+
+```
+@lxpanel --profile LXDE
+@pcmanfm --desktop --profile LXDE
+@xscreensaver -no-splash
+@/pathtomyscript/myscript
+```
+-----
+See also:
 
 See: http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/gui/auto-run-browser-on-startup
 
